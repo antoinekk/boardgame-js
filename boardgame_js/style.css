@@ -1,0 +1,67 @@
+td {
+  border: 2px solid black;
+  height: 90px;
+  width: 90px;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+#logo_location {
+  height: 25Opx;
+  width: 250px;
+}
+
+#command_location {
+  border: 2px solid black;
+  height : 950px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+#btnup, #btnleft, #btnright, #btndown {
+  height : 60px;
+  width: 90px;
+  background-color: black;
+  color: white;
+}
+#btnattack, #btndefend{
+  height: 80px;
+  width: 100px;
+  font-size: large;
+  margin-top: 50px;
+  font-weight: bold;
+}
+#btnattack {
+  background-color: #D73232;
+}
+#btndefend {
+  background-color: #25AC5D;
+}
+#btnnext {
+  background-color: #307BBB;
+  height : 80px;
+  width : 150px;
+  font-size: large;
+  margin-top: 50px;
+  font-weight: bold;
+}
+#player{
+  font-size: x-large;
+}
+#billypv{
+  margin-top: 50px;
+}
+#billypv, #patpv {
+  text-align: center;
+  font-size: large;
+}
+#billyhealth, #pathealth {
+  font-size : large;
+  color: red;
+}
+#activeplayer {
+  font-size: x-large;
+  color: rgb(255,255,0);
+  background-color: grey;
+}

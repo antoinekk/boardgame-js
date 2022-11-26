@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <title>El Bandido</title>
+  </head>
+
+  <body>
+
+    <div class="container" id="logo">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+          <img class="img-fluid" id="logo_location" src="img/logo.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="game">
+      <div class="row">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center" id="command_location"><br>
+          <div id="activeplayer"></div>
+          <br>
+          <button id="btnup" type="button">UP</button><br>
+          <button id="btnleft" type="button">LEFT</button><button id="btnright" type="button">RIGHT</button><br>
+          <button id="btndown" type="button">DOWN</button><br>
+          <div id="billypv">Billy The Kid<p id="billyhealth"></p></div>
+          <div id="billyweapon"></div>
+          <br>
+          <div id="patpv">Pat Garrett<p id="pathealth"></p></div>
+          <div id="patweapon"></div>
+          <button id="btnattack" type="button">ATTACK</button><br>
+          <button id="btndefend" type="button">DEFEND</button><br>
+          <button id="btnnext" type="button">NEXT PLAYER</button>
+        </div>
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" id="game_location"></div>
+      </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="location.js"></script>
+    <script type="text/javascript" src="cell.js"></script>
+    <script type="text/javascript" src="board.js"></script>
+    <script type="text/javascript" src="character.js"></script>
+    <script type="text/javascript" src="weapon.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+</body>
+
+</html>
